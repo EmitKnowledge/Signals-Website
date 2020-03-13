@@ -12,6 +12,10 @@ body {
   flex-grow: 1;
 }
 
+.navbar {
+  margin-top: 80px;
+}
+
 /* Scroller */
 .scroller {
   position: fixed;
