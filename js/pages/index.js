@@ -29,17 +29,4 @@ $(function() {
   if ($(this).scrollTop() <= $nav.height()) {
     $("#scroll-top").hide();
   }
-  hljs.initHighlightingOnLoad();
 });
-
-
-// document.addEventListener('DOMContentLoaded', (event) => {
-//   document.querySelectorAll('pre code').forEach((block) => {
-//     hljs.highlightBlock(block);
-//   });
-// });
-// hljs.configure({useBR: true});
-
-// document.querySelectorAll('div.code').forEach((block) => {
-//   hljs.highlightBlock(block);
-// });
