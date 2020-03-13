@@ -274,6 +274,10 @@ body {
   max-height: 765px !important;
 }
 
+.gist {height:500px !important;}
+.gist-file
+.gist-data {max-height: 500px;}
+
 pre {
   height: 314px;
 }
