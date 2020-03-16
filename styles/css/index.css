@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  margin-top: 80px;
+  margin-top: 5px;
 }
 
 /* Scroller */
@@ -309,6 +309,14 @@ pre {
     margin: 20px 0;
   }
 
+  .fullscreen-splash-mobile {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   .btn.btn-signalsBlue.btn-lg {
     margin-right: 13px;
     margin-bottom: 45px;
@@ -379,6 +387,9 @@ pre {
 
   .navbar-toggler.toggler-example {
     cursor: pointer;
+  }
+  .navbar-light .navbar-toggler {
+   border-color: rgba(255, 255, 255, 0); 
   }
 
   .white-text {
