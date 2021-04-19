@@ -260,14 +260,16 @@ body {
   margin-right: 13px;
 }
 
-
+#section_2 {
+  max-width: 900px;
+}
 
 .section2-p {
-  text-align: center;
-  margin-top: 155px;
+  text-align: left;
+  margin-top: 64px;
   font-size: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 64px;
+  margin-right: 64px;
 }
 
 .high-level-aspects-p {
@@ -305,7 +307,7 @@ pre {
 @media (max-width: 850px) {
 
   .section2-p {
-    text-align: center;
+    text-align: left;
     margin: 20px 0;
   }
 
