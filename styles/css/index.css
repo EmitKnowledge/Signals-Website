@@ -227,7 +227,7 @@ body {
 .heading-invert {
   color: white;
   position: relative;
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
   margin-top: 30px;
 }
